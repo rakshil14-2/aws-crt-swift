@@ -71,3 +71,31 @@ Also, change the following lines in HTTPTests.swift.
 - [Safely manage pointers in Swift](https://developer.apple.com/videos/play/wwdc2020/10167/)
 - [Unsafe Swift](https://developer.apple.com/videos/play/wwdc2020/10648)
 - [Swift and C Interoperability](https://youtu.be/0kim9mxBOA8)
+
+<!-- PLATFORM_SUPPORT_START -->
+# Platform Support
+
+## Tier 1 — Fully Supported & Tested in CI
+
+| Platform | Architecture |
+|----------|--------------|
+| al2 | x64 |
+| iOS 17.2, iOS18.5 | arm 64 |
+| macOS-14, macOS-15 | arm64, x86_64 |
+| tvOS 17.2, tvOS 18.5 | arm 64 |
+| ubuntu-24.04 | x64 |
+
+## Tier 2 — Supported (Not Tested in CI)
+
+| Platform | Architecture |
+|----------|--------------|
+| watchOS 6+ | arm 64 |
+
+## Supported Tools
+
+| Name | Version | Platforms |
+|------|---------|-----------|
+| Swift package Manager | 5.9+ | All |
+| Xcode | 15.2, 16.4 | macOS, iOS, tvOS, watchOS |
+
+<!-- PLATFORM_SUPPORT_END -->
